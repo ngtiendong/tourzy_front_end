@@ -11,12 +11,82 @@
 	padding: 10px;
 }
 
+.contact-company-info {
+	background-color: #fff;
+	float: left;
+	height: 370px;
+	width: 300px;
+	line-height: 2;
+}
+
+.contact-title {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	color: #494949;
+}
+
 .column tr {
 	height: 40px;
 }
 
 #congdong {
 	width: 20%;
+}
+
+.contact-box {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #494949;
+	background-color: #fff;
+	float: left;
+	height: 530px;
+	width: 600px;
+}
+
+.contact-content {
+	height: 650px;
+	padding: 20px;
+	margin-left: 50px;
+	width: 1000px;
+}
+
+.contact-input-box {
+	width: 500px;
+}
+
+.contact-input-field-name {
+	line-height: 2;
+}
+
+.contact-input-info {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.contact-input-info textarea {
+	font-size: 2em;
+}
+
+#contact-msg {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+
+.contact-submit-button:link, .contact-submit-button:visited {
+	background-color: #0096C4;
+	color: white;
+	padding: 14px 55px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.contact-submit-button:hover, .contact-submit-button:active {
+	background-color: red;
 }
 
 .footer:after {
@@ -32,7 +102,6 @@
 
 .footer {
 	width: 100%;
-	background-color: #000;
 	color: #fff;
 	padding: 0px;
 }
@@ -106,6 +175,10 @@ img {
 	padding-top: 30px;
 	text-decoration: none;
 	display: inline-block;
+}
+
+.position-relative {
+	position: relative;
 }
 
 #tourzy {

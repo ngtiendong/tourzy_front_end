@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	background-color: #000;
+	float: left;
+	
+	height: 370px;
+	padding: 10px;
+}
+
+.column tr {
+	height: 40px;
+}
+
+#congdong {
+	width: 20%;
+}
+
+.footer:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#danhmuc {
+	width: 20%;
+}
+
+
+.footer {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 0px;
+}
+
+.footer .tourzy-button {
+	font-weight: bold;
+}
+
+.footer .tourzy-button:link, .footer .tourzy-button:visited  {
+	background-color: #0096C4;
+	color: white;
+	padding: 14px 55px;
+	margin-left: 20%;
+	margin-top: 20%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer .normal-link {
+	color: white;
+}
+
+.footer .tourzy-button:hover, .footer .tourzy-button:active {
+	background-color: red;
+}
+
+.footer .normal-link {
+	text-decoration: none;
+}
+
+#tourzy {
+	width: 30%;
+}
+
+#thongtinchung {
+	width: 30%;
+}
+

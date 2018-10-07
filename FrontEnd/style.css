@@ -93,6 +93,16 @@
 	background-color: red;
 }
 
+.cover-with-top-border {
+	border-top-color: #494949;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.detail-news-category-name {
+	text-align: center;
+}
+
 .footer:after {
 	content: "";
 	display: table;
@@ -149,9 +159,7 @@
 .header {
 	position: relative;
 	height: 70px;
-	border-bottom-color: #494949;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	
 
 }
 
@@ -167,7 +175,7 @@ img {
 	height: 600px;
 }
 
-.main-content {
+.about-us-main-content {
 	padding-top: 20px;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -195,6 +203,10 @@ img {
 
 #thongtinchung {
 	width: 30%;
+}
+
+.text-center {
+	text-align: center;
 }
 
 .searchbox {
